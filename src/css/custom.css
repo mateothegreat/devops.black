@@ -129,3 +129,24 @@ html[data-theme='dark'] .margin-vert--md {
 .markdown p {
 
 }
+
+article .article-image {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border-bottom: 9px solid #953cf5;*/
+    padding-bottom: 20px;
+    background-blend-mode: screen;
+}
+
+html[data-theme='dark'] article .article-image {
+    /*background-image: linear-gradient(to top, #434242 0%, #717172 100%);*/
+
+
+}
+
+article .article-image img {
+
+
+}

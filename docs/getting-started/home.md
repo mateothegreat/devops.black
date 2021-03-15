@@ -10,6 +10,7 @@ keywords:
 
 ---
 
+
 ## What is DevOps?
 
 With the proliferation of software-as-a-service offerings has come a new
@@ -32,6 +33,14 @@ In this guide we will take you on the journey from novice engineering to
 full-blown development operations through the operationalization and
 productionization of infrastructure as code.
 
+## Lifecycle
+
+The DevOps lifecycle stretches from ideation all the way through productionization.
+Throughout this process there may be owners of one or more categories.
+
+<div class="article-image"><img src="/img/devops-lifecycle.png"/></div>
+
+
 ## Components
 
 The following components make up the DevOps wheelhouse:
@@ -42,3 +51,5 @@ The following components make up the DevOps wheelhouse:
 * [Administration](getting-started/components/administration)
 * [Observability](getting-started/components/observability)
 * [Accountability](getting-started/components/accountability)
+
+## Next steps

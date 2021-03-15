@@ -22,6 +22,12 @@ title: The DevOps Toolbox
 
 * [Terraform](https://terraform.io) Cloud infrastructure as code.
 
+## Data
+
+### Databases
+
+* [mytop](http://jeremy.zawodny.com/mysql/mytop) Top clone for MySQL.
+
 ## Observability
 
 ### Logging
@@ -38,7 +44,7 @@ title: The DevOps Toolbox
 
 ### Visualization
 
-* [Grafana](https://grafana.com)
+* [Grafana](https://grafana.com) Dashboard composer for observability.
 
 ## Service Delivery
 
@@ -47,7 +53,8 @@ title: The DevOps Toolbox
 
 ## Security
 
-* [Vault](https://www.vaultproject.io) Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
+* [Nmap](https://nmap.org) Open source utility for network discovery and security auditing.
+* [Vault](https://www.vaultproject.io) Secure, store and tightly control access to sensitive data using a UI, CLI, or HTTP API.
 
 ## Testing
 
