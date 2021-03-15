@@ -1,7 +1,7 @@
 ---
 slug: /
 
-title: Getting Started with DevOps
+title: Getting Started with DevOps 🤟
 
 description: How to get started with devops.
 keywords:

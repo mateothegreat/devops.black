@@ -47,7 +47,7 @@ module.exports = {
                 },
                 {
                     href: 'https://www.dsicommunity.org',
-                    label: 'Discord Chat..',
+                    label: 'Discord Chat 💬',
                     position: 'right'
                 },
                 {

@@ -1,5 +1,5 @@
 ---
-title: The DevOps Toolbox
+title: 🛠 The DevOps Toolbox
 ---
 
 The DevOps Toolbox is a curated selection of tooling that will get
@@ -11,6 +11,12 @@ Check back **frequently** as this list is ever-changing!
 **[Click here](https://github.com/mateothegreat/devops.rehab)** to star our repo
 and get on the watchlist...
 :::
+
+## Architecture
+
+* [Lucidchart](https://lucidchart.com) Web based diagramming (paid and free).
+* [Draw.io](https://draw.io) Completely free diagramming in the browser.
+* [dbdiagram.io](https://dbdiagram.io) A free, simple tool to draw ER diagrams by just writing code.
 
 ## Editors
 
@@ -46,6 +52,7 @@ and more time producing results?
 ### Databases
 
 * [elasticsearch-dump](https://github.com/elasticsearch-dump/elasticsearch-dump) Import and export tools for elasticsearch. 
+* [mgob](https://github.com/stefanprodan/mgob) MongoDB backup automation tool built with Go.
 * [mytop](http://jeremy.zawodny.com/mysql/mytop) Top clone for MySQL.
 
 ## Observability
@@ -61,6 +68,7 @@ and more time producing results?
 * [Icinga](https://icinga.com) Infrastructure environment and service monitoring (for the serious).
 * [Prometheus](https://prometheus.io) Metrics collection.
 * [Thanos](https://thanos.io) Metrics aggregation.
+* [dockprom](https://github.com/stefanprodan/dockprom) A monitoring solution for Docker hosts and containers with Prometheus, Grafana, cAdvisor, NodeExporter and alerting with AlertManager.
 
 ### Visualization
 
@@ -80,6 +88,7 @@ and more time producing results?
 * [Bandit](https://github.com/PyCQA/bandit) Bandit is a tool designed to find common security issues in Python code.
 * [Certbot](https://github.com/certbot/certbot) Automate Let's Encrypt certificate management.
 * [Let's Encrypt](https://letsencrypt.org) Free, automated, and open Certificate Authority.
+
 ## Testing
 
 * [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) HTTP benchmarking CLI.

@@ -22,9 +22,14 @@ module.exports = {
                 ]
             },
 
-            'getting-started/life',
-            'getting-started/toolbox'
+            'getting-started/life'
 
+        ],
+
+        'Toolbox': [
+
+            'toolbox'
+            
         ],
 
         'Survival Guides': [
@@ -50,7 +55,7 @@ module.exports = {
         'Appendix': [
 
             'appendix/dictionary'
-            
+
         ]
 
     }

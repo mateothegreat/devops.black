@@ -1,3 +1,3 @@
 ---
-title: A day in the life
+title: A day in the life..
 ---
