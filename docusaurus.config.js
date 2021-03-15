@@ -130,8 +130,14 @@ module.exports = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://github.com/mateothegreat/ops.rehab/edit/main/',
 
+                    include: ['**/*.md', '**/*.mdx'],
+
                     showLastUpdateAuthor: true,
-                    showLastUpdateTime: true
+                    showLastUpdateTime: true,
+
+                    docLayoutComponent: '@theme/DocPage',
+                    docItemComponent: '@theme/DocItem',
+
 
                 },
                 blog: {
@@ -163,20 +169,5 @@ module.exports = {
         '@docusaurus/plugin-ideal-image'
 
     ],
-
-    scripts: [
-
-        'https://buttons.github.io/buttons.js',
-        'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
-        '/js/code-block-buttons.js',
-
-    ],
-
-    stylesheets: [
-
-        '/css/code-block-buttons.css'
-
-    ]
-
 
 };

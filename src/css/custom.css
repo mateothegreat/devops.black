@@ -1,4 +1,5 @@
 :root {
+
     --ifm-color-primary: #7105ec;
     --ifm-color-primary-dark: rgb(33, 175, 144);
     --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -7,6 +8,7 @@
     --ifm-color-primary-lighter: rgb(102, 212, 189);
     --ifm-color-primary-lightest: rgb(146, 224, 208);
     --ifm-code-font-size: 95%;
+
 }
 
 .docusaurus-highlight-code-line {
@@ -19,14 +21,14 @@
 body {
 
     font-family: "Clarity City", "Avenir Next", sans-serif;
-    font-size: smaller;
 
 }
 
 html[data-theme='dark'] {
-    --ifm-color-primary: #7105ec;
+
+    --ifm-color-primary: #953cf5;
     --ifm-color-primary-dark: #5a91ea;
-    /* any other colors you wish to overwrite */
+
 }
 
 .navbar {
@@ -44,6 +46,24 @@ html[data-theme='dark'] .navbar {
 html[data-theme='dark'] article a {
 
     color: lightgreen;
+
+}
+
+html[data-theme='dark'] h4 {
+
+    color: lightgreen;
+
+}
+
+html[data-theme='light'] h3 {
+
+    color: #366dcf;
+
+}
+
+html[data-theme='dark'] h3 {
+
+    color: cornflowerblue;
 
 }
 
@@ -74,5 +94,38 @@ html[data-theme='dark'] article a {
 
     padding: 6px !important;
     font-size: unset !important;
+
+}
+
+/* Tabs */
+.tabs-container .tabs {
+
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.tabs-container .tabs li {
+
+    padding: 10px;
+    font-weight: normal;
+    font-size: 11px;
+
+}
+
+.margin-vert--md {
+
+    margin-top: 0 !important;
+    background: #efefef;
+
+}
+
+html[data-theme='dark'] .margin-vert--md {
+
+    background: #111;
+
+}
+
+.markdown p {
 
 }

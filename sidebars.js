@@ -27,6 +27,7 @@ module.exports = {
         ],
 
         'Survival Guides': [
+            'survival-guides/admin',
             'survival-guides/docker',
             'survival-guides/kubernetes'
         ],

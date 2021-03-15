@@ -1,0 +1,150 @@
+---
+title: The Sysadmin Survival Guide
+---
+
+This guide will make sure that you have the right commands needed to instrument
+your systems effectively by illustrating no-nonsense, straight to the point commands
+that are critical to any environment.
+
+## Filesystem
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+export const oses = [
+    {label: 'Linux', value: 'linux'},
+    {label: 'Windows', value: 'windows'},
+    {label: 'OSX', value: 'osx'},
+];
+
+
+
+
+### Finding files
+
+Finding files in a wide scope can be an expensive and time-consuming procedure.
+
+It initiates a search from a desired starting location and then recursively traversing
+the [nodes](https://en.wikipedia.org/wiki/Node_(computer_science)) (directories) of a
+hierarchical structure (typically a [tree](https://en.wikipedia.org/wiki/Tree_(data_structure))).
+
+> Official GNU find documentation can be found [here](https://www.gnu.org/software/findutils/manual/html_mono/find.html).
+
+#### By name and type
+
+Using the `-type` parameter can help you trim down your results.
+
+<Tabs groupId="os" defaultValue="linux" values={oses}>
+
+<TabItem value="linux">
+
+> `-type` uses the values `f` for files and `d` for directories.
+```shell
+find /start/path -type f -name '*pattern*'
+```
+
+</TabItem>
+
+<TabItem value="windows">
+
+```bash
+tbd
+```
+
+</TabItem>
+
+<TabItem value="osx">
+
+```bash
+find /start/path -type f -name '*pattern*'
+```
+
+</TabItem>
+
+</Tabs>
+
+#### By file content
+
+<Tabs groupId="os" defaultValue="linux" values={oses}>
+
+<TabItem value="linux">
+
+> If you just want file names add the l (lowercase L) flag.<br/>
+> `-type` uses the value `f` for files and `d` for directories.
+```bash
+egrep -lir --include=*.{php,html,js} "(document.cookie|setcookie)" .
+```
+
+</TabItem>
+
+<TabItem value="windows">
+
+```bash
+tbd
+```
+
+</TabItem>
+
+<TabItem value="osx">
+
+```bash
+find /start/path -type f -name '*pattern*'
+```
+
+</TabItem>
+
+</Tabs>
+
+## Networking
+
+### Routing
+
+#### Showing the routing table
+<Tabs groupId="os" defaultValue="linux" values={oses}>
+
+<TabItem value="linux">
+
+> If the `netstat` command is installed:
+```shell
+netstat -nr
+```
+> If the `netstat` command is not installed:
+```shell
+ip route
+```
+
+</TabItem>
+
+<TabItem value="windows">
+
+```bash
+route print
+```
+
+</TabItem>
+
+<TabItem value="osx">
+
+```bash
+netstat -nr
+```
+
+</TabItem>
+
+</Tabs>
+
+### Open ports
+
+List what ports are in use listing the owner, process id, and port.
+
+```bash
+$ sudo netstat -tnlp
+```
+
+## Processes
+
+### Kill all by user
+
+```bash
+pkill -KILL -u <username>
+```
