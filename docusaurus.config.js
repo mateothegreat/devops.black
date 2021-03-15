@@ -109,6 +109,10 @@ module.exports = {
                         {
                             label: 'matthewdavis.io',
                             href: 'https://matthewdavis.io',
+                        },
+                        {
+                            label: 'Canadian Luke',
+                            href: 'https://talk-about-it.ca',
                         }
                     ],
                 },
