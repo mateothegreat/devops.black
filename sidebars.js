@@ -14,6 +14,7 @@ module.exports = {
                 items: [
                     'getting-started/components/security',
                     'getting-started/components/coding',
+                    'getting-started/components/architecture',
                     'getting-started/components/infrastructure',
                     'getting-started/components/administration',
                     'getting-started/components/observability',
@@ -27,9 +28,11 @@ module.exports = {
         ],
 
         'Survival Guides': [
+
             'survival-guides/admin',
             'survival-guides/docker',
             'survival-guides/kubernetes'
+
         ],
 
         'DevOps & Your Career': [
@@ -42,6 +45,12 @@ module.exports = {
 
             'community/public'
 
+        ],
+
+        'Appendix': [
+
+            'appendix/dictionary'
+            
         ]
 
     }

@@ -52,4 +52,9 @@ The following components make up the DevOps wheelhouse:
 * [Observability](getting-started/components/observability)
 * [Accountability](getting-started/components/accountability)
 
+
+## Organization
+
+<div class="article-image"><img src="/img/measure.webp"/></div>
+
 ## Next steps
