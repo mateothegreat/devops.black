@@ -69,6 +69,7 @@ and more time producing results?
 * [Prometheus](https://prometheus.io) Metrics collection.
 * [Thanos](https://thanos.io) Metrics aggregation.
 * [dockprom](https://github.com/stefanprodan/dockprom) A monitoring solution for Docker hosts and containers with Prometheus, Grafana, cAdvisor, NodeExporter and alerting with AlertManager.
+* [Jaeger](https://www.jaegertracing.io) Open source tracing.
 
 ### Visualization
 
@@ -88,6 +89,8 @@ and more time producing results?
 * [Bandit](https://github.com/PyCQA/bandit) Bandit is a tool designed to find common security issues in Python code.
 * [Certbot](https://github.com/certbot/certbot) Automate Let's Encrypt certificate management.
 * [Let's Encrypt](https://letsencrypt.org) Free, automated, and open Certificate Authority.
+* [pfSense](https://pfsense.org) Open source network firewall appliance.
+* [Snyk](https://snyk.io) Find and fix security vulnerabilities.
 
 ## Testing
 

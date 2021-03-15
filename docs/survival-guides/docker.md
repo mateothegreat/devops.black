@@ -126,6 +126,36 @@ docker container stats <container name or id>
 ```bash
 docker container logs -f --tail=100 <container name or id>
 ```
+
+### Health Checks
+
+Configure a check that’s run to determine whether or not containers for this service are 
+“healthy”. See the docs for the [HEALTHCHECK Dockerfile instruction](https://docs.docker.com/engine/reference/builder/#healthcheck) for details on how healthchecks work.
+
+#### docker-compose.yaml snippet
+
+```yaml docker-compose.yaml
+version: '3'
+
+services:
+    myservice:
+        ..
+        image: nginx
+        ..
+        healthcheck:
+          test: ["CMD", "curl", "-f", "http://localhost"]
+          interval: 1m30s
+          timeout: 10s
+          retries: 3
+          start_period: 40s
+        ..
+```
+
+See also:
+
+* https://docs.docker.com/engine/reference/builder/#healthcheck
+* https://docs.docker.com/compose/compose-file/compose-file-v3/#healthcheck
+
 ## Networking
 
 ### Get ip addresses
