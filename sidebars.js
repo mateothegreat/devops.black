@@ -4,7 +4,24 @@ module.exports = {
 
         'Getting Started': [
 
-            'getting-started/home'
+            'getting-started/home',
+
+            {
+
+                type: 'category',
+                label: 'Components',
+                collapsed: false,
+                items: [
+                    'getting-started/components/security',
+                    'getting-started/components/coding',
+                    'getting-started/components/infrastructure',
+                    'getting-started/components/administration',
+                    'getting-started/components/observability',
+                    'getting-started/components/accountability',
+                ]
+            },
+
+            'getting-started/toolbox'
 
         ],
 
