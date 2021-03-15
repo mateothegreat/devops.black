@@ -41,6 +41,12 @@ html[data-theme='dark'] .navbar {
 
 }
 
+html[data-theme='dark'] article a {
+
+    color: lightgreen;
+
+}
+
 .footer {
 
     background: #000;
@@ -51,6 +57,12 @@ html[data-theme='dark'] .navbar {
 
     max-width: 50%;
     margin: 30px;
+
+}
+
+.footer__copyright {
+
+    color: #868686;
 
 }
 

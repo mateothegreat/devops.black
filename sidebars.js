@@ -21,6 +21,7 @@ module.exports = {
                 ]
             },
 
+            'getting-started/life',
             'getting-started/toolbox'
 
         ],
@@ -35,6 +36,12 @@ module.exports = {
             'careers/resume-builder'
 
         ],
+
+        'Community': [
+
+            'community/public'
+
+        ]
 
     }
 

@@ -15,9 +15,11 @@ title: The DevOps Toolbox
 ## Automation
 
 ### Configuration
+
 * [Ansible](https://ansible.com) Configuration as code.
 
 ### Infrastructure
+
 * [Terraform](https://terraform.io) Cloud infrastructure as code.
 
 ## Observability
@@ -41,3 +43,12 @@ title: The DevOps Toolbox
 ## Service Delivery
 
 * [HAproxy](https://haproxy.com) Load balancer and reverse proxy.
+* [Consul](https://www.consul.io) Service discovery and networking.
+
+## Security
+
+* [Vault](https://www.vaultproject.io) Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
+
+## Testing
+
+* [k6.io](https://k6.io) Open source load testing tool.
