@@ -1,12 +1,3 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
-
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
     title: 'devops.rehab',
@@ -22,6 +13,10 @@ module.exports = {
         enableUpdateBy: true
     },
     themeConfig: {
+        googleAnalytics: {
+            trackingID: 'G-4K4907CP3E',
+            anonymizeIP: true
+        },
         navbar: {
             title: '',
             logo: {
@@ -117,7 +112,6 @@ module.exports = {
                 src: 'img/logo.png',
                 href: 'https://opensource.facebook.com',
             },
-            // Please do not remove the credits, help to publicize Docusaurus :)
             copyright: `Copyright © ${new Date().getFullYear()} devops.rehab`,
         },
     },
@@ -131,7 +125,7 @@ module.exports = {
 
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true
-                    
+
                 },
                 blog: {
                     showReadingTime: true,
