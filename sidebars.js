@@ -1,12 +1,3 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
-
 module.exports = {
 
     someSidebar: {
@@ -21,3 +12,29 @@ module.exports = {
     },
 
 };
+
+module.exports = {
+
+    someSidebar: {
+
+        'Getting Started': [
+
+            'getting-started/home'
+
+        ],
+
+        'Survival Guides': [
+            'survival-guides/docker',
+            'survival-guides/kubernetes'
+        ],
+
+        'DevOps & Your Career': [
+
+            'careers/resume-builder'
+
+        ],
+
+    }
+
+};
+

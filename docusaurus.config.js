@@ -9,19 +9,29 @@ module.exports = {
     favicon: 'img/favicon.ico',
     organizationName: 'mateothegreat',
     projectName: 'devops.rehab',
-    customFields: {
-        enableUpdateBy: true
-    },
     themeConfig: {
+        announcementBar: {
+            id: 'support_us', // Any value that will identify this message.
+
+            content:
+                'We are looking to revamp our docs, please fill out&nbsp;<a target="" rel="noopener noreferrer" href="#">this survey</a>',
+            backgroundColor: '#4e89e8', // Defaults to `#fff`.
+            textColor: '#091E42', // Defaults to `#000`.
+            isCloseable: true, // Defaults to `true`.
+        },
+        colorMode: {
+            defaultMode: 'dark',
+        },
         googleAnalytics: {
             trackingID: 'G-4K4907CP3E',
             anonymizeIP: true
         },
         navbar: {
+
             title: '',
             logo: {
-                alt: 'My Facebook Project Logo',
-                src: 'img/logo.png',
+                alt: 'devops.rehab Logo',
+                src: 'img/logo-text.png',
             },
             items: [
                 {
@@ -30,12 +40,21 @@ module.exports = {
                     label: 'Docs',
                     position: 'left',
                 },
-                {to: 'blog', label: 'Blog', position: 'left'},
+                {
+                    to: 'blog',
+                    label: 'Blog',
+                    position: 'left'
+                },
+                {
+                    href: 'https://www.dsicommunity.org',
+                    label: 'Discord Chat..',
+                    position: 'right'
+                },
                 {
                     href: 'https://github.com/mateothegreat/devops.rehab',
-                    label: 'GitHub',
+                    label: 'View on GitHub ❤️',
                     position: 'right',
-                },
+                }
             ],
         },
         footer: {
@@ -85,32 +104,19 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Legal',
-                    // Please do not remove the privacy and terms, it's a legal requirement.
+                    title: 'Contributors',
                     items: [
                         {
-                            label: 'Privacy',
-                            href: 'https://opensource.facebook.com/legal/privacy/',
-                        },
-                        {
-                            label: 'Terms',
-                            href: 'https://opensource.facebook.com/legal/terms/',
-                        },
-                        {
-                            label: 'Data Policy',
-                            href: 'https://opensource.facebook.com/legal/data-policy/',
-                        },
-                        {
-                            label: 'Cookie Policy',
-                            href: 'https://opensource.facebook.com/legal/cookie-policy/',
-                        },
+                            label: 'matthewdavis.io',
+                            href: 'https://matthewdavis.io',
+                        }
                     ],
                 },
             ],
             logo: {
-                alt: 'Facebook Open Source Logo',
+                alt: 'devops.rehab Logo',
                 src: 'img/logo.png',
-                href: 'https://opensource.facebook.com',
+                href: 'https://devops.rehab',
             },
             copyright: `Copyright © ${new Date().getFullYear()} devops.rehab`,
         },
@@ -120,6 +126,7 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
+
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://github.com/mateothegreat/ops.rehab/edit/main/',
 
@@ -128,16 +135,49 @@ module.exports = {
 
                 },
                 blog: {
+
                     showReadingTime: true,
                     editUrl: 'https://github.com/mateothegreat/ops.rehab/edit/main/',
+
                 },
                 theme: {
+
                     customCss: require.resolve('./src/css/custom.css'),
+
                 },
-            },
-        ],
+                sitemap: {
+
+                    changefreq: 'daily',
+                    priority: 0.5,
+                    trailingSlash: false,
+
+                }
+
+            }
+
+        ]
     ],
+
     plugins: [
-        '@docusaurus/plugin-google-analytics'
+
+        '@docusaurus/plugin-google-analytics',
+        '@docusaurus/plugin-ideal-image'
+
+    ],
+
+    scripts: [
+
+        'https://buttons.github.io/buttons.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+        '/js/code-block-buttons.js',
+
+    ],
+
+    stylesheets: [
+
+        '/css/code-block-buttons.css'
+
     ]
+
+
 };
