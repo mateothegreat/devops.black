@@ -2,10 +2,24 @@
 title: The DevOps Toolbox
 ---
 
+The DevOps Toolbox is a curated selection of tooling that will get
+you going from zero to hero, save you time, and ultimately get you
+to where you need to be with less pain.
+
+:::note I heard you like updates
+Check back **frequently** as this list is ever-changing!
+**[Click here](https://github.com/mateothegreat/devops.rehab)** to star our repo
+and get on the watchlist...
+:::
 
 ## Editors
 
-* [IntelliJ](https://jetbrains.com)
+If you spend most of your time modifying _code_, why not have the right
+tool, and a solid user experience so that you can spend less time configuring emacs
+and more time producing results?
+
+* [IntelliJ](https://jetbrains.com) Open source, cross-platform IDE with a huge plugin ecosystem (free and paid).
+* [Visual Studio Code](https://code.visualstudio.com) Another Open source, cross-platform IDE with a huge plugin ecosystem (free).
 
 ## Clients
 

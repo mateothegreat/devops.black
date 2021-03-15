@@ -21,7 +21,7 @@
 body {
 
     font-family: "Clarity City", "Avenir Next", sans-serif;
-
+    font-size: smaller;
 }
 
 html[data-theme='dark'] {
@@ -46,6 +46,7 @@ html[data-theme='dark'] .navbar {
 html[data-theme='dark'] article a {
 
     color: lightgreen;
+    font-weight: bold;
 
 }
 
@@ -143,6 +144,13 @@ article .article-image {
 html[data-theme='dark'] article .article-image {
     /*background-image: linear-gradient(to top, #434242 0%, #717172 100%);*/
 
+
+}
+
+html[data-theme='dark'] .admonition a {
+    /*background-image: linear-gradient(to top, #434242 0%, #717172 100%);*/
+
+    color: #7105ec;
 
 }
 
