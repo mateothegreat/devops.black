@@ -47,19 +47,17 @@ find /start/path -type f -name '*pattern*'
 
 <TabItem value="windows">
 
-Windows manages file types and attributes differently. For example, to find all
-the files of type `.ext`, you would use the following:
-
+> Windows manages file types and attributes differently. For example, to find all
+> the files of type `.ext`, you would use the following:
 ```cmd
 dir C:\*.ext /a /s
 ```
-
-To find directories, you would use `/ad`; to find files, you would use `/a-d`.
-Searching is case-insensitive.
-
-The `/a` finds ALL files and folders matching the pattern.
-
-The `/s` searches all subfolders. To search an entire drive, you need to start
+> To find directories, you would use `/ad`; to find files, you would use `/a-d`.
+> Searching is case-insensitive.
+>
+> The `/a` finds ALL files and folders matching the pattern.
+>
+> The `/s` searches all subfolders. To search an entire drive, you need to start
 at the root, including the initial `\` after the drive letter and colon. If you
 forget the first slash, it will search in the last folder your command prompt
 was in for that drive letter.
@@ -187,9 +185,8 @@ pkill -KILL -u <username>
 
 <TabItem value="windows">
 
-In the below command, replace `DOMAIN` and `User` with the domain and user to
-target. Leave the upper-case `USERNAME` as is.
-
+> In the below command, replace `DOMAIN` and `User` with the domain and user to
+> target. Leave the upper-case `USERNAME` as is.
 ```cmd
 TASKKILL /F /FI "USERNAME eq DOMAIN\User" /IM *
 ```
