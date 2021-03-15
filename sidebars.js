@@ -13,7 +13,8 @@ module.exports = {
 
         Docusaurus: ['doc1', 'doc2', 'doc3'],
         'Survival Guides': [
-            'survival-guides/docker'
+            'survival-guides/docker',
+            'survival-guides/kubernetes'
         ],
         Features: ['mdx'],
 

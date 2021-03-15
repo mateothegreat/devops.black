@@ -14,10 +14,13 @@ module.exports = {
     url: 'https://devops.rehab',
     baseUrl: '/',
     onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
+    onBrokenMarkdownLinks: 'throw',
     favicon: 'img/favicon.ico',
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'mateothegreat',
+    projectName: 'devops.rehab',
+    customFields: {
+        enableUpdateBy: true
+    },
     themeConfig: {
         navbar: {
             title: '',
@@ -33,9 +36,8 @@ module.exports = {
                     position: 'left',
                 },
                 {to: 'blog', label: 'Blog', position: 'left'},
-                // Please keep GitHub link to the right for consistency.
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    href: 'https://github.com/mateothegreat/devops.rehab',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -125,15 +127,15 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/edit/master/website/',
+                    editUrl: 'https://github.com/mateothegreat/ops.rehab/edit/main/',
+
+                    showLastUpdateAuthor: true,
+                    showLastUpdateTime: true
+                    
                 },
                 blog: {
                     showReadingTime: true,
-                    // Please change this to your repo.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+                    editUrl: 'https://github.com/mateothegreat/ops.rehab/edit/main/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),

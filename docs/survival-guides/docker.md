@@ -1,6 +1,6 @@
 ---
 id: docker
-title: Docker
+title: The Docker Survival Guide
 ---
 
 This guide is meant to be tactical and straight to the point and is
