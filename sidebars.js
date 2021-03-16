@@ -29,7 +29,7 @@ module.exports = {
         'Toolbox': [
 
             'toolbox'
-            
+
         ],
 
         'Survival Guides': [
@@ -48,6 +48,7 @@ module.exports = {
 
         'Community': [
 
+            'community/consultants',
             'community/public'
 
         ],
