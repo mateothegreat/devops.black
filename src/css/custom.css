@@ -221,3 +221,17 @@ header .buttons_src\-pages\- a {
     opacity: 0.7;
     border-radius: 50%;
 }
+
+.hero__title, .hero__subtitle {
+
+    color: #eee
+
+}
+
+.hero__title span {
+
+
+    color: mediumpurple;
+    text-decoration: underline;
+
+}

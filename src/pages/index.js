@@ -74,17 +74,21 @@ export default function Home() {
             description="Description will go into a meta tag in <head />">
             <header className={clsx('hero hero--primary', styles.heroBanner)}
                     style={{'background-image': 'url(img/home-bg.jpg)'}}>
+
                 <div className="container">
+
                     <h1 className="hero__title">
 
-                        delivering results through discipline & maturity.
+                        <i>delivering</i> results through <span>discipline</span> & <span>maturity</span>.
 
                     </h1>
+
                     <p className="hero__subtitle">
 
                         rehabilitate the devops in your life.
 
                     </p>
+
                     <div className={styles.buttons}>
                         <Link
                             className={clsx(
