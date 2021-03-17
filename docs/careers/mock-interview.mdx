@@ -1,0 +1,41 @@
+---
+title: The Mock Interview
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+export const tabs = [{label: 'Question', value: 'Question'}, {label: 'Answer', value: 'Answer'}];
+
+#### Availability
+
+<Tabs values={tabs} defaultValue="Question">
+
+<TabItem value="Question">
+
+> The HTTP REST API is returning **502** HTTP status codes.
+>
+> What do you do?
+
+</TabItem>
+
+<TabItem value="Answer">
+
+> "502 Bad Gateway" indicates that there is _something_ serving as a gateway that is proxying requests
+> to the destination(s) and it is highly likely that it cannot reach them.
+>
+> It is important to find out where the failure is occurring. Is it the loadbalancer or is it that the
+> service(s) have crashed or become unresponsive?
+>
+> Run a port scan using `nmap` to determine if the destination(s) are listening on port 80 and/or 443:
+```bash
+nmap -Pn -p80,443 "ip or hostname of destination"
+```
+>
+> If you have access to the destination determine if the service(s) are listening on port 80 and/or 443:
+```bash
+sudo netstat -tnlp
+```
+
+</TabItem>
+
+</Tabs>

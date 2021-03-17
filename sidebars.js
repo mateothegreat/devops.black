@@ -42,6 +42,7 @@ module.exports = {
 
         'DevOps & Your Career': [
 
+            'careers/mock-interview',
             'careers/resume-builder'
 
         ],

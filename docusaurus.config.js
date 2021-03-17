@@ -134,7 +134,7 @@ module.exports = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://github.com/mateothegreat/ops.rehab/edit/main/',
 
-                    include: ['**/*.md', '**/*.mdx'],
+                    include: [ '**/*.md', '**/*.mdx' ],
 
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true,
